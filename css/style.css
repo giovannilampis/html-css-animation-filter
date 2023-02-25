@@ -1,3 +1,5 @@
+/* ESERCIZIO 1 */
+
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -9,6 +11,9 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
+/* ESERCIZIO 2 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -22,6 +27,8 @@
     height: 100px;
 }
 
+/* ESERCIZIO 3 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -33,6 +40,8 @@
     border-radius: 50%;
 }
 
+/* ESERCIZIO 4 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -43,6 +52,8 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+/* ESERCIZIO 5 */
 
 .ex-5-square {
     margin: 20px;
@@ -61,6 +72,7 @@
     height: 30px;
 }
 
+/* ESERCIZIO 6 */
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
@@ -69,6 +81,8 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* ESERCIZIO 7 */
 
 .ex-7-img {
     transition: all 7s ease;
@@ -79,6 +93,8 @@
     width: 100%;
 }
 
+/* ESERCIZIO 8 */
+
 .ex-8-img {
     transition: all 7s ease;
 }
@@ -88,6 +104,8 @@
     float: right;
     filter: brightness(0.1);
 }
+
+/* ESERCIZIO 9 */
 
 .ex-9-img {
     margin: 50px 100px;
@@ -104,6 +122,8 @@
     border-radius: 50%;
     transform: scale(1.5);
 }
+
+/* ESERCIZIO 10 */
 
 .ex-10-icon {
     font-size: 60px;
@@ -122,6 +142,8 @@
     }
   }
 
+  /* ESERCIZIO 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
@@ -138,6 +160,8 @@
       transform: rotate(270deg);
     }
   }
+
+  /* ESERCIZI 12 e 13 */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -168,3 +192,91 @@
     width: 60px;
     height: 20px;
 }
+
+/* ESERCIZIO 12 */
+
+.ex-12-button:active .ex-12-top-white {
+    animation: move-top-div 4s linear ;
+}
+
+.ex-12-button:active .ex-12-bottom-white {
+    animation: move-bottom-div 4s linear ;
+}
+
+
+@keyframes move-top-div {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    12.5%{
+        top: -10px;
+        left: 30%;
+    }
+    25%{
+        top: -10px;
+        left: 50%;
+    }
+    37.5%{
+        top: -10px;
+        left: 70%;
+    }
+    50%{
+        top: -10px;
+        left: 90%;
+    }
+    62.5%{
+        top: -10px;
+        left: 70%;
+    }
+    75%{
+        top: -10px;
+        left: 50%;
+    }
+    87.5%{
+        top: -10px;
+        left: 30%;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+
+}
+
+@keyframes move-bottom-div {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    14.28%{
+        bottom: -10px;
+        right: 40%;
+    }
+    28.57%{
+        bottom: -10px;
+        right: 60%;
+    }
+    42.84%{
+        bottom: -10px;
+        right: 80%;
+    }
+    57.14%{
+        bottom: -10px;
+        right: 60%;
+    }
+    87.5%{
+        bottom: -10px;
+        right: 40%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+}
+
+
+
+/* ESERCIZIO 13 */
+
